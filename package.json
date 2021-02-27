@@ -1,0 +1,20 @@
+{
+  "name": "mocking-async-code-jest",
+  "version": "1.0.0",
+  "description": "Mocking Async code Node JS Mocking Async Code Jest",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack app.js --mode development --watch",
+    "test": "jest"
+  },
+  "author": "Manoj Kale",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
